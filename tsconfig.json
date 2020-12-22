@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true, // generate .d.ts
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5"
+  },
+  "include": [
+    "src/**/*.ts",
+    "rollup.config.js"
+  ],
+  "exclude": [
+    "node_modules/**"
+  ],
+}
