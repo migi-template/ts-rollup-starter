@@ -4,13 +4,15 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "env": {
-    "es6": true
-  },
   "ignorePatterns": [
     "node_modules",
-    "dist"
+    "dist",
+    "*.config.js"
   ],
+  "env": {
+    "es6": true,
+    "node": true
+  },
   "plugins": [
     "import",
     "eslint-comments"
