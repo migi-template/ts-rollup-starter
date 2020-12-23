@@ -5,15 +5,18 @@
   "main": "dist/example.cjs.js",
   "module": "dist/example.esm.js",
   "broswer": "dist/example.umd.js",
-  "types": "./dist/main.d.ts",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "pretest": "npm run build"
   },
+  "author": "tian0o0",
+  "license": "MIT",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
