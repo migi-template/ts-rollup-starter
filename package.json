@@ -1,6 +1,6 @@
 {
   "name": "ts-rollup-starter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/example.cjs.js",
   "module": "dist/example.esm.js",
@@ -14,7 +14,7 @@
     "dev": "rollup -c -w",
     "pretest": "npm run build"
   },
-  "author": "tian0o0",
+  "author": "",
   "license": "MIT",
   "keywords": [],
   "devDependencies": {

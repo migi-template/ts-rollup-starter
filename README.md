@@ -1,3 +1,3 @@
-## ts-rollup-starter
+## PROJECT_NAME
 
-快速开始写一个typescript库
+DESCRIPTION
