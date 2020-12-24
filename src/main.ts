@@ -1,6 +1,5 @@
-export default class Test {
-  constructor() {
-    // TODO
-  }
+
+export function add(x: number): number {
+  return x + x;
 }
 
