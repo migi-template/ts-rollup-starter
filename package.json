@@ -30,9 +30,6 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    },
-    "cz-customizable": {
-      "config": "./cz.config.js"
     }
   },
   "author": "",
