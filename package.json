@@ -1,6 +1,6 @@
 {
   "name": "ts-rollup-starter",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/example.cjs.js",
   "module": "dist/example.esm.js",
@@ -29,7 +29,10 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./cz.config.js"
+    },
+    "cz-customizable": {
+      "config": "./cz.config.js"
     }
   },
   "author": "",
