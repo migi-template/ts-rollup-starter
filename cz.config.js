@@ -1,7 +1,7 @@
 const { readdirSync } = require('fs');
 const { resolve, basename, extname } = require('path');
 
-const scopes = [createScopes('src', readdirSync(resolve(__dirname, 'src')))];
+// const scopes = [createScopes('src', readdirSync(resolve(__dirname, 'src')))];
 
 module.exports = {
   types: [
@@ -46,22 +46,22 @@ module.exports = {
     },
   ],
 
-  scopes: scopes.flat(),
+  // scopes: scopes.flat(),
 
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
 };
 
-function createScopes(namespace, items) {
-  return items.reduce((scopes, filename) => {
-    if (
-      filename.indexOf('index') === 0 ||
-      filename.indexOf('@') === 0 ||
-      filename.indexOf('_') === 0
-    )
-      return scopes;
-    return scopes.concat(
-      `${namespace}:${basename(filename, extname(filename))}`
-    );
-  }, []);
-}
+// function createScopes(namespace, items) {
+//   return items.reduce((scopes, filename) => {
+//     if (
+//       filename.indexOf('index') === 0 ||
+//       filename.indexOf('@') === 0 ||
+//       filename.indexOf('_') === 0
+//     )
+//       return scopes;
+//     return scopes.concat(
+//       `${namespace}:${basename(filename, extname(filename))}`
+//     );
+//   }, []);
+// }
