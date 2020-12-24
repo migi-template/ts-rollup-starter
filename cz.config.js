@@ -3,8 +3,6 @@ const { resolve, basename, extname } = require('path');
 
 const scopes = [createScopes('src', readdirSync(resolve(__dirname, 'src')))];
 
-console.log(scopes.flat());
-
 module.exports = {
   types: [
     {

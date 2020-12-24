@@ -29,7 +29,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./cz.config.js"
+      "path": "cz-customizable"
     },
     "cz-customizable": {
       "config": "./cz.config.js"
